@@ -1,0 +1,5 @@
+logs/
+venv/
+users.json
+config.json
+__pycache__
