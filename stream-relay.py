@@ -17,8 +17,8 @@ login_manager.init_app(app)
 login_manager.login_view = 'login'
 
 # Global configuration
-CONFIG_FILE = 'config.json'
-USERS_FILE = 'users.json'
+CONFIG_FILE = 'config/config.json'
+USERS_FILE = 'config/users.json'
 active_streams = {}
 logger = StreamLogger()
 
