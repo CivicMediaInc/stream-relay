@@ -337,7 +337,6 @@ def remove_stream(stream_name):
     return jsonify({'status': 'success'})
 
 @app.route('/stream/<stream_name>')
-@login_required
 def stream(stream_name):
     print(f"Accessing stream: {stream_name}")  # Debug output
     print(f"Available streams: {list(active_streams.keys())}")  # Debug output
